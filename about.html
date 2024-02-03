@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Rahaf's Site</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
+
+
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .content {
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    h2, h1, p, article {
+        background-color: #cbc7c7;
+        font-family: 'Ibarra Real Nova', serif;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+
+    .img-container {
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    img {
+        border: 5px solid #555;
+        border-radius: 10px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    @media only screen and (max-width: 768px) {
+        h2, h1, p, article {
+            margin-top: 10px;
+            margin-left: 10px;
+            font-size: 20px;
+        }
+
+        .img-container {
+            margin-top: 10px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">RAHAF</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/contact.html" class="navbar__links"> Contact </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/about.html" class="navbar__links"> About </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/resume.html" class="navbar__links"> Resume </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/interests.html" class="navbar__links"> Interests </a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/index.html" class="button"> Home </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="img-container">
+        <img id="test" src="./images/Rahaf.jpeg">
+    </div>
+    <div class="container">
+        <h2>
+            About Me
+        </h2>
+        <article class="content">Driven and eager MIS student passionate about technology and business. Possesses strong analytical and problem-solving skills, fueled by a desire to learn and grow.
+
+            Gained extensive knowledge in various MIS domains, including system analysis & design, databases, programming, and project management.
+            
+            Aspires to work for a leading MIS company, leveraging skills and knowledge to make a positive impact.
+            
+            </article>
+    </div>
+
+
+</body>
+</html>

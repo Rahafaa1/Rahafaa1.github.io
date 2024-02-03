@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Rahaf's Site</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .content {
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    h2, h1, p, article {
+        background-color: #cbc7c7;
+        font-family: 'Ibarra Real Nova', serif;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+
+    .img-container,
+    .img-container2,
+    .img-container3 {
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    img {
+        border: 5px solid #555;
+        border-radius: 10px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .img-container2 img,
+    .img-container3 img {
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .img-container2,
+    .img-container3 {
+        display: inline-block;
+    }
+
+    @media only screen and (max-width: 768px) {
+        h2, h1, p, article {
+            margin-top: 10px;
+            margin-left: 10px;
+            font-size: 20px;
+        }
+
+        .img-container,
+        .img-container2,
+        .img-container3 {
+            margin-top: 10px;
+        }
+
+        .img-container2 img,
+        .img-container3 img {
+            height: 150px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+    }
+    ul{
+        list-style: none;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">RAHAF</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/contact.html" class="navbar__links"> Contact </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/about.html" class="navbar__links"> About </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/resume.html" class="navbar__links"> Resume </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/interests.html" class="navbar__links"> Interests </a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/index.html" class="button"> Home </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h2>
+            Interests
+        </h2>
+        <article class="content">As a Management Information Systems (MIS) student,the intersection of technology and business is where my passion truly ignites.
+              Delving into the realm of data analytics, I find joy in deciphering complex datasets, extracting meaningful insights,and con
+              tributing to informed decision-making. The harmonious dance of technology and bu
+              siness processes fascinates me, as I explore ways to enhance organizational efficiency thro
+              ugh innovative systems and solutions<br><br> Here are some of my interests:
+            
+            <ul>
+                <li>⚫Customer experience</li>
+                <li>⚫Product development</li>
+                <li id="spacing">⚫Planning</li>
+            </ul>
+        </article>
+    </div>
+    <div class="img-container">
+        <div class="img-container2">
+            <img src="./images/product-devel.png">
+        </div>
+        <div class="img-container3">
+            <img src="./images/Customer-Experience-Framework.png">
+        </div>
+    </div>
+</body>
+</html>
